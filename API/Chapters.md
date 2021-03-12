@@ -57,10 +57,8 @@ The endpoint URL may be defined by the chapter provider. The Podcast Hosting ser
 Parameters:
 - `rss`: RSS feed URL
 - `guid`: New Episode GUID
-- `enclosure_url`: New episode enclosure url
 
 Response:
-- `status`: true or false
 - `jsonUrl`: Url for Json
 - `episodeUrl`: Url for episode on dashboard
 
