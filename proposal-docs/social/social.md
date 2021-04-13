@@ -1,4 +1,4 @@
-# The "podcast:social" / "podcast:socialSignUp" / "podcast:socialInteract" Specification
+# The "podcast:social" Specification
 
 <small>Version 1.0 by Benjamin Bellamy - 2021.04.13</small>
 
@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Social networks (Facebook, Instagram, Twitter, Mastodon…) and discussion platforms (Slack, Discord, Jabber, IRC, Matrix, Mastodon…) are a convenient way
+Social networks (Facebook, Instagram, Twitter, Mastodon…) and discussion platforms (Slack, Discord, Jabber, IRC, Matrix…) are a convenient way
 for podcasters to interact with their audience, and for listeners to interact with podcasters.  
 Thanks to them listeners can comment, share or like podcast episodes.  
 The purpose of this specification is to allow podcast apps to know where they should guide the listeners to make these interactions - and the onboarding process
@@ -41,7 +41,7 @@ There are three elements:
      - …
    - `podcastAccountId` (required): The podcast ID on this platform.
    - `podcastAccountUrl` (required): The podcast URL on this platform.
-   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform should be used)
+   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lowest is better)
  
    Examples:
    - `<podcast:social platform="twitter" podcastAccountId="@PodcastindexOrg" podcastAccountUrl="https://twitter.com/PodcastindexOrg"></podcast:social>`
@@ -53,11 +53,11 @@ There are three elements:
 
   podcast:social (optional | multiple)
 
-  This element allows to make easy onboarding for listeners on social platforms, especially for activitypub plateforms where podcasters and listeners can be on different instances.
+  This element allows to make easy onboarding for listeners on social platforms, especially for decentralized plateforms (such as Matrix or ActivityPub) where podcasters and listeners can be on different instances.
 
    - `homeUrl` (required): The platform home URL.
    - `signUpUrl` (required): The platform sign up URL.
-   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform should be used)
+   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lowest is better)
 
   Examples:
   - `<podcast:socialSignUp homeUrl="https://twitter.com/" signUpUrl="https://twitter.com/login" priority="1" />`
@@ -83,7 +83,7 @@ There are three elements:
        - matrix
        - …
    - `podcastAccountId` (required): The podcast ID on this platform.
-   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform should be used)
+   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lowest is better)
    - element's content: URL to this episode on this platform
 
   Examples:
