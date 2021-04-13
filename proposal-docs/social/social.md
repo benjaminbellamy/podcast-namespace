@@ -41,7 +41,7 @@ There are three elements:
      - …
    - `podcastAccountId` (required): The podcast ID on this platform.
    - `podcastAccountUrl` (required): The podcast URL on this platform.
-   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lowest is better)
+   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lower is better)
  
    Examples:
    - `<podcast:social platform="twitter" podcastAccountId="@PodcastindexOrg" podcastAccountUrl="https://twitter.com/PodcastindexOrg"></podcast:social>`
@@ -57,7 +57,7 @@ There are three elements:
 
    - `homeUrl` (required): The platform home URL.
    - `signUpUrl` (required): The platform sign up URL.
-   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lowest is better)
+   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lower is better)
 
   Examples:
   - `<podcast:socialSignUp homeUrl="https://twitter.com/" signUpUrl="https://twitter.com/login" priority="1" />`
@@ -83,7 +83,7 @@ There are three elements:
        - matrix
        - …
    - `podcastAccountId` (required): The podcast ID on this platform.
-   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lowest is better)
+   - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lower is better)
    - element's content: URL to this episode on this platform
 
   Examples:
