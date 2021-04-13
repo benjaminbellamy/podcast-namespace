@@ -53,7 +53,7 @@ There are three elements:
 
   podcast:social (optional | multiple)
 
-  This element allows to make easy onboarding for listeners on social/discussion platforms, especially for decentralized ones (such as Matrix or ActivityPub) where podcasters and listeners can be on different instances.
+  This element allows to make easy onboarding for listeners on social/discussion platforms, especially for decentralized ones (such as Matrix or ActivityPub) where podcasters and listeners can register on different servers.
 
    - `homeUrl` (required): The platform home URL.
    - `signUpUrl` (required): The platform sign up URL.
