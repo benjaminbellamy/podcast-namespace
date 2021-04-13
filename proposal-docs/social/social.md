@@ -120,7 +120,6 @@ There are three elements:
       <podcast:socialInteract priority="666" platform="facebook" podcastAccountId="LesPoesiesDHeloise">https://www.facebook.com/LesPoesiesDHeloise/posts/399766303947452</podcast:socialInteract>
 
     </item>
-    
     […]
     
   </channel>
