@@ -116,7 +116,7 @@ There are three elements:
       <link>https://lespoesiesdheloise.fr/@heloise/episodes/oisillon-bleu</link>
       […]
 
-      <podcast:socialInteract priority="1" platform="activitypub" podcastAccountId="@heloise@lespoesiesdheloise.fr">https://enfants-et-famille.podcasts.chat/web/statuses/106058259011882307</podcast:socialInteract>
+      <podcast:socialInteract priority="1" platform="activitypub" podcastAccountId="@heloise@lespoesiesdheloise.fr">https://lespoesiesdheloise.fr/@heloise/notes/4ba8df51-d67d-405d-a475-6471e1235c1c</podcast:socialInteract>
       <podcast:socialInteract priority="666" platform="facebook" podcastAccountId="LesPoesiesDHeloise">https://www.facebook.com/LesPoesiesDHeloise/posts/399766303947452</podcast:socialInteract>
 
     </item>
