@@ -15,7 +15,7 @@ necessary to make them possible - as seamless as possible.
 There are three elements:
 - **"podcast:social"** for the \<channel> element: tells the user **which platform(s)** is/are used for this podcast.
 - **"podcast:socialSignUp"** for the \<podcast:social> element: tells the user **where to sign up** on this platform.
-- **"podcast:socialInteract"** for the \<item> element: tells the user whese to find the specific link to **interact with this specific episode**.
+- **"podcast:socialInteract"** for the \<item> element: tells the user where to find the specific link to **interact with this specific episode**.
 
 ## Elements
 
