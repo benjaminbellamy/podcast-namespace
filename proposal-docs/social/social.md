@@ -69,7 +69,7 @@ There are three elements:
 
   Item (optional | multiple)
   
-  This element allows listeners to interact with an episode.
+  This element allows listeners to interact (comment, share, like…) with an episode.
 
   - `platform` (required): This is the platform id. It can be on of the following:
        - activitypub
