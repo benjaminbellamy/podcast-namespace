@@ -10,7 +10,8 @@ Social networks (Facebook, Instagram, Twitter, Mastodon…) and discussion platf
 for podcasters to interact with their audience, and for listeners to interact with podcasters.  
 Thanks to them listeners can comment, share or like podcast episodes.  
 The purpose of this specification is to allow podcast apps to know where they should guide the listeners to make these interactions - and the onboarding process
-necessary to make them possible - as seamless as possible.
+necessary to make them possible - as seamless as possible.  
+Of course not all podcast apps would implement all platforms. Each one would implement the one(s) they want to provide their users a better interaction with.
 
 There are three elements:
 - **"podcast:social"** for the \<channel> element: tells the user **which platform(s)** is/are used for this podcast.
