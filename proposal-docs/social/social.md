@@ -130,3 +130,4 @@ There are three elements:
 
 Discussion here:
 - https://github.com/Podcastindex-org/podcast-namespace/issues/153
+- https://podcastindex.social/web/statuses/106065482252134072
