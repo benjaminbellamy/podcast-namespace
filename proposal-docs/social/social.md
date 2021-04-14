@@ -66,7 +66,7 @@ There are three elements:
 
 ### SocialInteract Element
 
-- **\<podcast:socialInteract platform="platform_id" podcastAccountId="podcast_account_id" priority="platform_priority">**[URL to this episode on this platform]**</podcast:social>**
+- **\<podcast:socialInteract platform="platform_id" podcastAccountId="podcast_account_id" pubDate="publication_date" priority="platform_priority">**[URL to this episode on this platform]**</podcast:social>**
 
   Item (optional | multiple)
   
@@ -84,6 +84,7 @@ There are three elements:
        - matrix
        - …
    - `podcastAccountId` (required): The podcast ID on this platform.
+   - `pubDate` (optional): publication date on this platform. This can be useful when there are several interactions for the same plateform for the same episode (for instance , two Tweets about the same episode). Format must be ISO 8601.
    - `priority` (optional): This platform priority (useful if the podcaster wants to tell which platform is prefered, lower is better)
    - element's content: URL to this episode on this platform
 
@@ -117,8 +118,8 @@ There are three elements:
       <link>https://lespoesiesdheloise.fr/@heloise/episodes/oisillon-bleu</link>
       […]
 
-      <podcast:socialInteract priority="1" platform="activitypub" podcastAccountId="@heloise@lespoesiesdheloise.fr">https://lespoesiesdheloise.fr/@heloise/notes/4ba8df51-d67d-405d-a475-6471e1235c1c</podcast:socialInteract>
-      <podcast:socialInteract priority="666" platform="facebook" podcastAccountId="LesPoesiesDHeloise">https://www.facebook.com/LesPoesiesDHeloise/posts/399766303947452</podcast:socialInteract>
+      <podcast:socialInteract priority="1" platform="activitypub" podcastAccountId="@heloise@lespoesiesdheloise.fr" pubDate="2021-04-14T10:25:42Z">https://lespoesiesdheloise.fr/@heloise/notes/4ba8df51-d67d-405d-a475-6471e1235c1c</podcast:socialInteract>
+      <podcast:socialInteract priority="666" platform="facebook" podcastAccountId="LesPoesiesDHeloise" pubDate="2021-04-14T10:25:42Z">https://www.facebook.com/LesPoesiesDHeloise/posts/399766303947452</podcast:socialInteract>
 
     </item>
     […]
